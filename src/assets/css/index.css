@@ -1,0 +1,57 @@
+.title,
+footer,
+.content {
+  font-family: "Roboto Mono", monospace;
+}
+
+nav.level {
+  margin: auto;
+  max-width: 1500px;
+}
+.main-heading {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 2.5em;
+  padding-left: 10px;
+  text-shadow: 0 0 4px rgb(102, 253, 2);
+}
+.characters-page {
+  padding: 15px 0;
+}
+.all-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1300px;
+  padding: 0 15px 15px 15px;
+}
+.card {
+  color: black;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.31);
+}
+.card .title {
+  max-width: 250px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.image > img {
+  border-radius: 8px 8px 0 0;
+}
+
+.pagination {
+  margin: auto;
+  max-width: 1300px;
+}
+
+.progress {
+  max-width: 1300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 30px;
+}
